@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    background-color: hsl(212, 45%, 89%);
+}
+
+/* Start qr */
+.continar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 35%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 220px;
+    height: 380px;
+}
+
+.continar img {
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding: 1px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.continar p {
+    text-align: center;
+    padding-top: 20px;
+    padding: 10px;
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+}
+
+.continar .text p {
+    text-align: center;
+    padding-top: 5px;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* End qr */
